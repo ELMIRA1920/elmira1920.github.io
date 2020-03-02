@@ -207,7 +207,7 @@ display: flex
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
-  font-family: "Courier New", monospace;
+ 
 }
 .columns-container {
   display: flex;
@@ -224,4 +224,219 @@ display: flex
   width: 400px;
       margin-left: 10px;
   padding-left: 10px;
+}
+.recommendations {
+    padding-top: 20px;
+    padding-bottom: 55px;
+    
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+}
+.right-column {
+    width: 440px;
+}
+ .left-column {
+    width: 440px;
+    margin-right: 80px;
+}
+.recommendations-list {
+    margin: 0;
+    
+    padding: 0;
+        padding-left: 0px;
+    padding-left: 30px;
+    list-style: none;
+   
+
+}
+
+.recommendations {
+    padding-top: 20px;
+    padding-bottom: 55px;
+    margin-left: 60px;
+}
+.lead {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Courier New", monospace;
+}
+.timetable {
+    padding: 80px 0;
+    color: 
+#ffffff;
+background-color:
+    #222222;
+}
+.timetable-info {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 55px;
+}
+.timetable-fligts {
+    width: 100%;
+    border-collapse: collapse;
+}
+.timetable-infoh2 {
+    width: 180px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Courier New", monospace;
+    color: 
+    #feca30;
+}
+.timetable-fligts th {
+    width: 180px;
+    padding: 15px;
+    color: 
+white;
+text-align: left;
+background-color:
+    #111111;
+}
+.timetable-fligts td {
+    width: 180px;
+    padding: 15px;
+    color: 
+    white;
+    text-transform: uppercase;
+}
+.timetable-info p {
+    width: 440px;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: 80px;
+    font-size: 13px;
+    line-height: 18px;
+}
+.site-footer {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    color: 
+#ffffff;
+background-color:
+    #131313;
+}
+.footer-columns-container {
+    display: flex;
+}
+.left-columnf {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin-right: 100px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.copyrights {
+    margin-top: auto;
+    color: 
+    #555555;
+}
+.right-columnf {
+    width: 720px;
+    padding-top: 35px;
+}
+.footer-menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-submenu-title {
+    display: block;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: 
+white;
+text-transform: uppercase;
+text-decoration: none;
+border-bottom: 1px solid
+    #555555;
+}
+.footer-submenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-submenu a {
+    text-decoration: none;
+    color: 
+    #888888;
+}
+.footer-submenu  li {
+    margin-bottom: 20px;
+}
+.footer-menu > li {
+    width: 180px;
+    margin-right: 60px;
+}
+.vacation-request-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.half-field {
+    width: 215px;
+    margin-bottom: 20px;
+}
+ .btn {
+    margin-top: 30px;
+    text-align: left;
+}
+.btn-grey {
+    width: 215px;
+    color: 
+white;
+background-color:
+    #222222;
+}
+.vacation-request {
+    padding: 80px 0;
+    color: 
+#000000;
+background-color:
+    #f0f0f0;
+}
+.vacation-request-form p {
+    width: 100%;
+    margin: 0;
+        margin-bottom: 0px;
+    margin-bottom: 8px;
+}
+.vacation-request p {
+    width: 340px;}
+.recommendations-list li::before {
+  content: "";
+
+  position: absolute;
+  left: -25px;
+  top: 5px;
+
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+  background-color: #feca30;
 }
